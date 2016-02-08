@@ -1,0 +1,88 @@
+{
+  "name": "atmel-samg55j19-gcc",
+  "version": "0.1.0",
+  "inherits": {
+    "mbed-gcc": "*"
+  },
+  "description": "Official mbed build target for the Atmel SAMG55 Xpro development board.",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "mbed-target:atsamg55j19",
+    "mbed-official",
+    "samg55j19",
+    "samg55",
+    "sam4",
+    "samg55 xpro"
+  ],
+  "config": {
+    "mbed-os": {},
+    "cmsis": {
+      "nvic": {
+        "ram_vector_address": "0x20000000",
+        "flash_vector_address": "0x00400000",
+        "user_irq_offset": 16,
+        "user_irq_number": 50
+      }
+    },
+    "hardware": {
+      "pins": {
+        "LED_RED": "PA19",
+        "LED_GREEN": "PA19",
+        "LED_BLUE": "PA19",
+        "LED1": "LED_RED",
+        "LED2": "LED_GREEN",
+        "LED3": "LED_BLUE",
+        "LED4": "LED_RED",
+        "SW1": "PA28",
+        "SW2": "PB31",
+        "SW3": "PB08",
+        "USBTX": "PA04",
+        "USBRX": "PA05",
+        "D0": "PA00",
+        "D1": "PA01",
+        "D2": "PA08",
+        "D3": "PA09",
+        "D4": "PA10",
+        "D5": "PA11",
+        "D6": "PA12",
+        "D7": "PA13",
+        "D8": "PA14",
+        "D9": "PA15",
+        "D10": "PA22",
+        "D11": "PA17",
+        "D12": "PA18",
+        "D13": "PA20",
+        "D14": "PA22",
+        "D15": "PA23",
+        "I2C_SCL": "PA23",
+        "I2C_SDA": "PA22",
+        "A0": "PA15",
+        "A1": "PA23",
+        "A2": "PA06",
+        "A3": "PA07",
+        "A4": "PB31",
+        "A5": "PB03",
+       "DAC0_OUT": "0xFEFE"
+      }
+    }
+  },
+  "similarTo": [
+    "atmel",
+    "atmel-samcortexm4",
+    "atmel-samcortexm4-samg55",
+    "core-atmel-samcortexm4",
+    "hal-atmel-samcortexm4",
+    "mbed-hal-atmel-samcortexm4",
+    "cortex-m4",
+    "armv6-m",
+    "arm",
+    "gcc",
+    "mbed"
+  ],
+  "toolchain": "CMake/toolchain.cmake"
+  }
