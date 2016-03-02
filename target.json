@@ -1,6 +1,6 @@
 {
   "name": "atmel-samg55j19-gcc",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "inherits": {
     "mbed-gcc": "*"
   },
@@ -11,6 +11,12 @@
       "type": "Apache-2.0"
     }
   ],
+  "author": "Akhil P <Akhil.P@atmel.com>",
+  "repository": {
+    "url": "git@github.com:ARMmbed/target-atmel-samg55j19-gcc.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/target-atmel-samg55j19-gcc",  
   "keywords": [
     "mbed-target:atsamg55j19",
     "mbed-official",
