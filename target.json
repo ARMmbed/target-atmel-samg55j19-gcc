@@ -26,7 +26,13 @@
     "samg55 xpro"
   ],
   "config": {
-    "mbed-os": {},
+    "mbed-os": {
+      "net": {
+        "stacks": {
+          "winc1500": true
+        }
+      }
+    },
     "cmsis": {
       "nvic": {
         "ram_vector_address": "0x20000000",
