@@ -29,7 +29,7 @@
     "mbed-os": {
       "net": {
         "stacks": {
-          "winc1500": true
+          "atmel": true
         }
       }
     },
@@ -94,7 +94,8 @@
     "armv6-m",
     "arm",
     "gcc",
-    "mbed"
+    "mbed",
+    "winc1500"
   ],
   "toolchain": "CMake/toolchain.cmake"
   }
