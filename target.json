@@ -1,6 +1,6 @@
 {
   "name": "atmel-samg55j19-gcc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "inherits": {
     "mbed-gcc": "*"
   },
